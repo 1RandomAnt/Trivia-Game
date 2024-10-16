@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Favicon.png">
+</head>
+<body>
+    <div id="menu">
+        <h1>Trivia Game</h1>
+        <h2>by A Random Ant</h2>
+        <button id="start">Begin!</button>
+    </div>
+        
+    <div id="game" style="display:none">
+        <div id="number"></div>
+        <div id="lives"></div>
+        <div id="question"></div>
+        <button class="choice" id="a"></button>
+        <button class="choice" id="b"></button>
+        <button class="choice" id="c"></button>
+        <button class="choice" id="d"></button>
+    </div>
+    
+    <div id="result" style="display:none"></div>
+    <div id="ending" style="display:none"></div>
+    <button id="restart" style="display:none">Restart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
